@@ -18,5 +18,7 @@ The dataset contains inconsistent values, requiring a strong ETL (Extract-Transf
 
 Team Members
 
-1.Victor388 
-2.Abdiqalaq243
+1.Victor388   
+2.Abdiqalaq243  
+3. Kendi807  
+4.Bradley346  
