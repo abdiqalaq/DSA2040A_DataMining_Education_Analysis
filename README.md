@@ -1,4 +1,5 @@
 # DSA2040A_DataMining_Education_Analysis
+<<<<<<< HEAD
 
 ## WEEK ONE WORK
 
@@ -52,3 +53,44 @@ The Week 2 task focused on advanced transformation and ensuring data readiness f
 - Python (Pandas, NumPy)
 - Jupyter Notebook
 - Git / GitHub for version control
+=======
+The Student Performance and Attendance dataset from Kaggle contains real-world student records with missing and inconsistent values. It includes attendance behavior and academic scores, allowing analysis of how absenteeism affects performance. It is ideal for ETL cleaning, feature engineering, and education data mining tasks.
+>>>>>>> 2893197 (Initial commit)
+
+# **WEEK TWO — Data Cleaning & Transformation**
+
+## **Overview**
+Week 2 focused on preparing the dataset for analysis by removing outliers, reducing noise, standardizing formats, and exporting the final cleaned file.
+
+---
+
+## **Tasks Completed**
+
+### **1. Outlier Handling**
+- Used the IQR method for numeric columns.
+- Removed 45 outliers from `StudyHours`.
+- No outliers detected in: Attendance, Age, OnlineCourses, AssignmentCompletion, ExamScore.
+
+---
+
+### **2. Noise Reduction**
+- Trimmed whitespace from all categorical fields.
+- Standardized text casing (Title Case).
+- Replaced noisy placeholders (`?`, `N/A`, `--`, `Null`, `0`) with `NaN`.
+- Fixed minor typos in labels (e.g., "Femal" → "Female", "Ye" → "Yes").
+
+---
+
+### **3. Standardization**
+- Rounded numeric columns to 2 decimal places.
+- Reordered columns alphabetically for clarity.
+
+---
+
+### **4. Final Output**
+- Final cleaned dataset saved as: **`final_dataset.csv`**
+- Final shape: **12,424 rows × 18 columns**
+- Updated notebook: `extract_transform.ipynb`
+
+---
+
