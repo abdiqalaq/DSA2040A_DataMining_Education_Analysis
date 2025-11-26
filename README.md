@@ -1,5 +1,4 @@
 # DSA2040A_DataMining_Education_Analysis
-<<<<<<< HEAD
 
 ## WEEK ONE WORK
 
@@ -29,6 +28,7 @@ The dataset contains inconsistent values and missing data, requiring a strong **
 2. Abdiqalaq243  
 3. Kendi807  
 4. Bradley346  
+5. Sammi Oyabi 
 
 ---
 ## WEEK TWO WORK
@@ -53,16 +53,14 @@ The Week 2 task focused on advanced transformation and ensuring data readiness f
 - Python (Pandas, NumPy)
 - Jupyter Notebook
 - Git / GitHub for version control
-=======
 The Student Performance and Attendance dataset from Kaggle contains real-world student records with missing and inconsistent values. It includes attendance behavior and academic scores, allowing analysis of how absenteeism affects performance. It is ideal for ETL cleaning, feature engineering, and education data mining tasks.
->>>>>>> 2893197 (Initial commit)
 
 # **WEEK TWO — Data Cleaning & Transformation**
 
 ## **Overview**
 Week 2 focused on preparing the dataset for analysis by removing outliers, reducing noise, standardizing formats, and exporting the final cleaned file.
 
----
+
 
 ## **Tasks Completed**
 
@@ -71,7 +69,7 @@ Week 2 focused on preparing the dataset for analysis by removing outliers, reduc
 - Removed 45 outliers from `StudyHours`.
 - No outliers detected in: Attendance, Age, OnlineCourses, AssignmentCompletion, ExamScore.
 
----
+
 
 ### **2. Noise Reduction**
 - Trimmed whitespace from all categorical fields.
