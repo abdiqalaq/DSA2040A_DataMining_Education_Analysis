@@ -62,16 +62,23 @@ Week 1 focused on establishing the project structure and performing an initial a
 # **WEEK TWO — Data Cleaning & Enrichment**
 
 ## **Overview**
-Week 2 focused on preparing the dataset for analysis by removing outliers, reducing noise, standardizing formats, and exporting the final cleaned file.
+In Week 2, we built a complete ETL process to clean, standardize, and transform the raw dataset into a fully analysis-ready file.  
+Key steps included loading the data, removing duplicates, handling missing values, mapping encoded categories, fixing data types, removing outliers, reducing noise, engineering new features, and exporting the final dataset.
 
+---
 
 ## **Tasks Completed**
 
-### 1. Basic Cleaning
+### 1. Loading Raw data
+- Loaded dataset: **14,003 rows × 16 columns**  
+- Inspected structure using `.shape`, `.head()`, `.info()`
+
+---
+### 2. Basic Cleaning
    - Removed duplicate rows  
    - Handled missing values using sensible defaults (e.g., Gender=0 (Female), Motivation=19(Medium), Internet=1(Yes))  
 
-### 2. Column Mapping*
+### 3. Column Mapping*
    - Converted numeric codes into human-readable labels  
      | Column      | Mapping |
      |------------|---------|
@@ -79,7 +86,7 @@ Week 2 focused on preparing the dataset for analysis by removing outliers, reduc
      | Motivation | 0 → Low, 1 → Medium, 2 → High |
      | FinalGrade | 0 → A, 1 → B, 2 → C, 3 → D |
    - Improved interpretability for visualization and modeling  
-##  3. Data Type Correction  
+##  4. Data Type Correction  
 Converted columns to correct formats:
 
 ### **Numeric → float**  
@@ -89,17 +96,17 @@ StudyHours, Attendance, Age, OnlineCourses, AssignmentCompletion, ExamScore
 Resources, Motivation, Gender, Internet, LearningStyle, StressLevel, Discussions, EduTech, FinalGrade, Extracurricular
 
 ---
-### **4. Derived Fields**
+### **5. Derived Fields**
    - `ActiveLearner`: Yes if student participates in extracurricular or uses EduTech  
    - `PassStatus`: Pass for grades A/B/C, Fail for D 
 
-### **5. Outlier Handling**
+### **6. Outlier Handling**
 - Used the IQR method for numeric columns.
 - Removed 45 outliers from `StudyHours`.
 - No outliers detected in: Attendance, Age, OnlineCourses, AssignmentCompletion, ExamScore.
 
 
-### **6. Noise Reduction**
+### **7. Noise Reduction**
 - Trimmed whitespace from all categorical fields.
 - Standardized text casing (Title Case).
 - Replaced noisy placeholders (`?`, `N/A`, `--`, `Null`, `0`) with `NaN`.
@@ -107,14 +114,14 @@ Resources, Motivation, Gender, Internet, LearningStyle, StressLevel, Discussions
 
 ---
 
-### **7. Standardization & Formatting**
+### **8. Standardization & Formatting**
 - Rounded numeric columns to 2 decimal places.
 - Reordered columns alphabetically for readability.
 - Re-validated categorical vs numerical columns  
 
 ---
 
-### **8. Final Output**
+### **9. Final Output**
 - Final cleaned dataset saved as: **`final_dataset.csv`**
 - Final shape: **12,424 rows × 18 columns**
 - Updated notebook: `1_extract_transform.ipynb`
