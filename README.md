@@ -2,7 +2,7 @@
 ## Student Performance & Attendance Analysis 
 
 # Project Overview  
-This project explores a real-world education dataset containing student attendance behaviour, study habits, participation, and academic performance.  
+This project explores a real-world education dataset containing student attendance behavior, study habits, participation, and academic performance.  
 Across 5 weeks, we implemented a full **data-mining pipeline**:
 
 1. ETL (Extract–Transform–Load)  
@@ -17,7 +17,7 @@ Our goal was to understand what factors influence student performance and uncove
 
 #  Key Research Questions  
 - How do attendance and study habits affect performance?  
-- What patterns exist among high-, average-, and low-performing students?  
+- What patterns exist among high, average, and low-performing students?  
 - Can we classify students based on performance indicators?  
 - What actionable insights can educators use to improve results?
 
@@ -153,7 +153,7 @@ Week 3 focused on gaining insights through visual and statistical EDA using Pand
    - study hours, Online courses, ExamScore, Attendance, Age and AssignmentCompletion
 - Noted right-skew in StudyHours
 
-#### **4. Group Comparisons
+#### **4. Group Comparisons**
 - **Gender:** Average exam scores compared using pie charts  
 - **Age groups:** Exam scores binned and visualized with bar plots  
 - **Stress Level, EduTech usage, Learning Styles:** Compared via pie chart, violin plot and boxplots to identify trends  
@@ -164,7 +164,7 @@ Week 3 focused on gaining insights through visual and statistical EDA using Pand
 
 ---
  
-# **WEEK 4 — Data Mining & Modelling **
+# **WEEK 4 - Data Mining **
 
 ### **Overview**  
 Week 4 implemented multiple data-mining models to extract deeper structural patterns from the dataset.
@@ -204,7 +204,7 @@ Week 4 implemented multiple data-mining models to extract deeper structural patt
 
 ---
 
-# **WEEK 5 — Insights & Storytelling **
+# **WEEK 5 - Insights & Storytelling **
 
 ### **Expected Deliverables**
 - Dashboard (Power BI)  
