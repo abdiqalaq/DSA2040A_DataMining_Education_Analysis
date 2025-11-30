@@ -153,7 +153,7 @@ Week 3 focused on gaining insights through visual and statistical EDA using Pand
    - study hours, Online courses, ExamScore, Attendance, Age and AssignmentCompletion
 - Noted right-skew in StudyHours
 
-### **4. Group Comparisons
+#### **4. Group Comparisons
 - **Gender:** Average exam scores compared using pie charts  
 - **Age groups:** Exam scores binned and visualized with bar plots  
 - **Stress Level, EduTech usage, Learning Styles:** Compared via pie chart, violin plot and boxplots to identify trends  
@@ -164,7 +164,7 @@ Week 3 focused on gaining insights through visual and statistical EDA using Pand
 
 ---
  
- # **WEEK 4 — Data Mining & Modelling **
+# **WEEK 4 — Data Mining & Modelling **
 
 ### **Overview**  
 Week 4 implemented multiple data-mining models to extract deeper structural patterns from the dataset.
