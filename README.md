@@ -28,7 +28,7 @@ Our goal was to understand what factors influence student performance and uncove
 2. Abdiqalaq - 243  
 3. Kendi - 807  
 4. Bradley - 346  
-5. Sammi Oyabi 
+5. Sammi Oyabi - 677
 
 ---
 
