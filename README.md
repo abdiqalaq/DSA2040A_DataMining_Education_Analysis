@@ -145,18 +145,60 @@ Week 3 focused on gaining insights through visual and statistical EDA using Pand
 #### **2. Correlation Analysis**  
 - Explored relationships among numeric features 
   -(`Age`, `StudyHours`, `Attendance`, `ExamScore`, `AssignmentCompletion`, `OnlineCourses`)  
-- Correlations were generally low, indicating mostly independent features 
-- Visualized via a heatmap 
+ 
+- Visualized via a heatmap
+   
+ <img width="904" height="819" alt="image" src="https://github.com/user-attachments/assets/6d5e6ccc-331e-4f0e-b074-99112ce65c43" />
+
+- Correlations were generally low, indicating mostly independent features
 
 #### **3. Distributions**  
 - Histograms for :
-   - study hours, Online courses, ExamScore, Attendance, Age and AssignmentCompletion
-- Noted right-skew in StudyHours
+  
+   - study hours
+     
+    <img width="695" height="391" alt="image" src="https://github.com/user-attachments/assets/e299c1de-eceb-4437-a627-fc398dcfd094" />
+
+   -  Online courses,
+     
+    <img width="695" height="391" alt="image" src="https://github.com/user-attachments/assets/2cda81e8-4780-46f6-9b37-2f25827cab5c" />
+
+   - ExamScore
+     
+    <img width="695" height="391" alt="image" src="https://github.com/user-attachments/assets/7ef09a26-22f3-4888-ae1c-73e2d7c493f8" />
+
+   - Age
+    
+    <img width="704" height="391" alt="image" src="https://github.com/user-attachments/assets/fda068e0-a595-4fb1-b960-1fa99c38af9d" />
+
+   - AssignmentCompletion
+    
+  <img width="695" height="391" alt="image" src="https://github.com/user-attachments/assets/0a916442-8b9c-4a4c-98a9-30c03a06a16b" />
+
+- Noted uniform distribution in StudyHours
 
 #### **4. Group Comparisons**
-- **Gender:** Average exam scores compared using pie charts  
-- **Age groups:** Exam scores binned and visualized with bar plots  
-- **Stress Level, EduTech usage, Learning Styles:** Compared via pie chart, violin plot and boxplots to identify trends  
+- **Gender:** Average exam scores compared using pie charts
+  
+  <img width="636" height="656" alt="image" src="https://github.com/user-attachments/assets/06fdc546-b4cc-4c9f-aece-a593463f45f0" />
+
+- **Age groups:** Exam scores binned and visualized with bar plots
+  
+  <img width="687" height="545" alt="image" src="https://github.com/user-attachments/assets/d77401f4-63f8-49a4-a5af-a9e11460fec3" />
+
+- **Stress Level
+  
+  <img width="636" height="656" alt="image" src="https://github.com/user-attachments/assets/c97799f0-ba9c-4e08-a5f9-3475a9643aab" />
+
+-   EduTech usage
+  
+  <img width="850" height="545" alt="image" src="https://github.com/user-attachments/assets/4f0bc44d-1005-468d-941a-22c3677ea26d" />
+
+-  Learning Styles:
+  
+  <img width="850" height="545" alt="image" src="https://github.com/user-attachments/assets/b395c6f5-f53e-4bed-bf6b-e26ad98d8917" />
+
+-  ** Compared via pie chart, violin plot and boxplots to identify trends  
 
 
 #### **Output**  
@@ -183,7 +225,8 @@ Week 4 implemented multiple data-mining models to extract deeper structural patt
 - Train/test split: 70/30  
 - Model accuracy: 100% on both train and test  
 - Key predictors: ExamScore, StudyHours, Attendance  
-- Confusion matrix and feature importance visualizations included  
+- Confusion matrix and feature importance visualizations included
+  
 
 #### **3. Association Analysis**  
 - Focused on high-performing students (grade A)  
@@ -197,7 +240,16 @@ Week 4 implemented multiple data-mining models to extract deeper structural patt
   | Internet      | Yes    | 91.9%          |
   | Resources     | Medium | 48.2%          |
   | ExamScore     | High   | 100%           |
-- Visualized patterns with stacked bar charts  
+
+  
+- Visualized patterns with stacked bar charts
+  
+<img width="990" height="559" alt="image" src="https://github.com/user-attachments/assets/9ef95bf5-45ae-4305-85e2-c0ad027f5aeb" />
+
+<img width="990" height="559" alt="image" src="https://github.com/user-attachments/assets/3983e097-2f6c-453a-8a69-b09b88703d94" />
+
+<img width="990" height="558" alt="image" src="https://github.com/user-attachments/assets/d066570d-4c3a-4414-b634-f8430f1b98b4" />
+
 
 #### **Output**  
 - Notebook: **3_data_mining.ipynb**
@@ -239,13 +291,13 @@ Week 4 implemented multiple data-mining models to extract deeper structural patt
 ---
 
 ## 7. Team Contributions
-| Member          | Contributions |
-|-----------------|---------------|
-| Victor-388      |               |
-| Abdiqalaq-243   |               |
-| Kendi-807       |               |
-| Bradley-346     |               |
-| Sammi Oyabi-677 |               |
+| Member          | Contributions                                       |
+|-----------------|-----------------------------------------------------|
+| Victor-388      |     data exctration & dashboard                     |
+| Abdiqalaq-243   |data extraction & ReadMe                             |
+| Kendi-807       |   data cleaning,data manipulation,ReadMe & dashboard|
+| Bradley-346     |  data cleaning,EDA analysis,ReadMe & dashboard      |
+| Sammi Oyabi-677 |     data mining,ReadMe & dashboard                  |
 
 ---
 
