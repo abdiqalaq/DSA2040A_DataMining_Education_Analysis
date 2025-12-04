@@ -282,15 +282,22 @@ Week 4 implemented multiple data-mining models to extract deeper structural patt
 
 Below are the exported Power BI dashboard views: 
 
-1. Overview Dashboard
+### 1. Overview Dashboard  
+<img width="990" height="559" alt="image" src="images/lead_integration_victor.png" />
 
-2. Analytics
+### 2. Performance Analytics  
+<img width="990" height="559" alt="image" src="images/performance_analytics_abdi.png" />
 
-3. Behavior & Demographics
+### 3. Behavior & Demographics  
+<img width="990" height="559" alt="image" src="images/behaviour_demo_kendi.png" />
 
-4. Resources & Technology
 
-5. Mining Results & Insights
+### 4. Resources & Technology  
+<img width="990" height="559" alt="image" src="images/resource_tech_bradley.png" />
+
+### 5. Mining Results & Insights  
+<img width="990" height="559" alt="image" src="images/mining_result_sammi.png" />
+<img width="990" height="559" alt="image" src="images/actionable_insights_sammi.png" />
 
 
 
