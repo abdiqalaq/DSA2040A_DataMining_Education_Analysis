@@ -13,7 +13,7 @@ Across 5 weeks, we implemented a full **data-mining pipeline**:
 
 Our goal was to understand what factors influence student performance and uncover patterns that can support educational decision-making.
 
----
+
 
 #  Key Research Questions  
 - How do attendance and study habits affect performance?  
@@ -21,7 +21,7 @@ Our goal was to understand what factors influence student performance and uncove
 - Can we classify students based on performance indicators?  
 - What actionable insights can educators use to improve results?
 
----
+
 
 ### Team Members
 1. Victor - 388  
@@ -30,7 +30,7 @@ Our goal was to understand what factors influence student performance and uncove
 4. Bradley - 346  
 5. Sammi Oyabi - 677
 
----
+
 
 # **WEEK 1 — Project Kickoff & Dataset Selection**
 
@@ -57,7 +57,7 @@ Week 1 focused on establishing the project structure and performing an initial a
    - Initial README draft  
    - Raw dataset summary  
 
----
+
 
 # **WEEK TWO — Data Cleaning & Enrichment**
 
@@ -73,7 +73,7 @@ Key steps included loading the data, removing duplicates, handling missing value
 - Loaded dataset: **14,003 rows × 16 columns**  
 - Inspected structure using `.shape`, `.head()`, `.info()`
 
----
+
 ### 2. Basic Cleaning
    - Removed duplicate rows  
    - Handled missing values using sensible defaults (e.g., Gender=0 (Female), Motivation=19(Medium), Internet=1(Yes))  
@@ -95,7 +95,7 @@ StudyHours, Attendance, Age, OnlineCourses, AssignmentCompletion, ExamScore
 ### **Categorical → category**  
 Resources, Motivation, Gender, Internet, LearningStyle, StressLevel, Discussions, EduTech, FinalGrade, Extracurricular
 
----
+
 ### **5. Derived Fields**
    - `ActiveLearner`: Yes if student participates in extracurricular or uses EduTech  
    - `PassStatus`: Pass for grades A/B/C, Fail for D 
@@ -112,21 +112,21 @@ Resources, Motivation, Gender, Internet, LearningStyle, StressLevel, Discussions
 - Replaced noisy placeholders (`?`, `N/A`, `--`, `Null`, `0`) with `NaN`.
 - Fixed minor typos in labels (e.g., "Femal" → "Female", "Ye" → "Yes").
 
----
+
 
 ### **8. Standardization & Formatting**
 - Rounded numeric columns to 2 decimal places.
 - Reordered columns alphabetically for readability.
 - Re-validated categorical vs numerical columns  
 
----
+
 
 ### **9. Final Output**
 - Final cleaned dataset saved as: **`final_dataset.csv`**
 - Final shape: **12,424 rows × 18 columns**
 - Updated notebook: `1_extract_transform.ipynb`
 
----
+
 
 # **WEEK 3 — Exploratory Data Analysis**
 
@@ -205,7 +205,7 @@ Week 3 focused on gaining insights through visual and statistical EDA using Pand
 #### **Output**  
 - Notebook: **2_exploratory_analysis.ipynb**
 
----
+
  
 # **WEEK 4 - Data Mining **
 
@@ -255,7 +255,7 @@ Week 4 implemented multiple data-mining models to extract deeper structural patt
 #### **Output**  
 - Notebook: **3_data_mining.ipynb**
 
----
+
 
 # **WEEK 5 - Insights & Storytelling **
 
@@ -278,7 +278,51 @@ Week 4 implemented multiple data-mining models to extract deeper structural patt
 
 **Notebook:** `4_insights_dashboard.ipynb`  
 
----
+## **Power BI Dashboard**
+
+Below are the exported Power BI dashboard views: 
+
+1. Overview Dashboard
+
+2. Analytics
+
+3. Behavior & Demographics
+
+4. Resources & Technology
+
+5. Mining Results & Insights
+
+
+
+lead_integration_victor.png
+
+performance_analytics_abdi.png
+
+behaviour_demo_kendi.png
+
+resource_tech_bradley.png
+
+mining_result_sammi.png
+
+### Key Insights
+
+Low study hours + poor attendance → highest failure risk
+
+ExamScore, StudyHours, and Attendance are strongest performance indicators
+
+High performers consistently have high internet access + good study routines
+
+#### Recommendations
+
+Provide targeted support for at-risk clusters
+
+Monitor students with <70% attendance
+
+Promote 15+ hours of weekly study
+
+Guarantee internet + learning resources availability
+
+
 
 ## 6. Tools & Techniques
 **Languages & Libraries:**  
@@ -289,7 +333,7 @@ Week 4 implemented multiple data-mining models to extract deeper structural patt
 - Statistical Analysis: correlations, distributions, group comparisons  
 - Data Mining: K-Means clustering, Decision Tree classification, Association Analysis  
 
----
+
 
 ## 7. Team Contributions
 | Member          | Contributions                                       |
@@ -300,7 +344,7 @@ Week 4 implemented multiple data-mining models to extract deeper structural patt
 | Bradley-346     |  data cleaning,EDA analysis,ReadMe & dashboard      |
 | Sammi Oyabi-677 |     data mining,ReadMe & dashboard                  |
 
----
+
 
 ## 8. How to Run
 1. Clone repository  
@@ -309,4 +353,4 @@ Week 4 implemented multiple data-mining models to extract deeper structural patt
    - `1_extract_transform.ipynb` → `2_exploratory_analysis.ipynb` → `3_data_mining.ipynb` → `4_insights_dashboard.ipynb`  
 4. Final datasets saved in `../data/final/`  
 
----
+
