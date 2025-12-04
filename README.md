@@ -148,7 +148,7 @@ Week 3 focused on gaining insights through visual and statistical EDA using Pand
  
 - Visualized via a heatmap
    
- <img width="904" height="819" alt="image" src="https://github.com/user-attachments/assets/6d5e6ccc-331e-4f0e-b074-99112ce65c43" />
+ <img width="1051" height="966" alt="image" src="https://github.com/user-attachments/assets/d9eb94c8-576a-469d-9a97-0ef50cae047c" />
 
 - Correlations were generally low, indicating mostly independent features
 
@@ -196,7 +196,8 @@ Week 3 focused on gaining insights through visual and statistical EDA using Pand
 
 -  Learning Styles:
   
-  <img width="850" height="545" alt="image" src="https://github.com/user-attachments/assets/b395c6f5-f53e-4bed-bf6b-e26ad98d8917" />
+  <img width="850" height="545" alt="image" src="https://github.com/user-attachments/assets/41ef37f7-9d74-4885-a016-fa7e664c38d2" />
+
 
 -  ** Compared via pie chart, violin plot and boxplots to identify trends  
 
