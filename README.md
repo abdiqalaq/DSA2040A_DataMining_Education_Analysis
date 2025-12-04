@@ -294,15 +294,13 @@ Below are the exported Power BI dashboard views:
 
 
 
-lead_integration_victor.png
+/images/
+    lead_integration_victor.png
+    performance_analytics_abdi.png
+    behaviour_demo_kendi.png
+    resource_tech_bradley.png
+    mining_result_sammi.png
 
-performance_analytics_abdi.png
-
-behaviour_demo_kendi.png
-
-resource_tech_bradley.png
-
-mining_result_sammi.png
 
 ### Key Insights
 
